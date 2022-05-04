@@ -1,0 +1,314 @@
+@charset "UTF-8";
+@import url("pexels-photo-870711.jpeg");
+@import url("1261951.jpg");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 0px 0px;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#skills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("1261951.jpg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    float: left;
+    margin-top: 15px;
+    top: 15px;
+    background-color: rgba(250,226,194,1.00);
+}
+.gallery #skills h1 {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    color: rgba(72,72,91,1.00);
+    font-family: "Gill Sans Bold";
+    font-variant: normal;
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.gallery #skills h5 {
+    text-align: center;
+    color: rgba(72,72,91,1.00);
+    font-family: "Gill Sans Bold";
+    font-variant: normal;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+#namebox  {
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-align: center;
+    display: block;
+    padding-top: 17%;
+    color: rgba(255,255,255,1.00);
+    font-weight: bolder;
+    font-variant: normal;
+    font-size: 200%;
+    text-shadow: 3px 4px 5px rgba(0,0,0,1.00);
+}
+.intro {
+    background-color: #FFFFFF;
+}
+.column {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    float: left;
+    display: block;
+}
+.container .intro .gallery {
+    display: inline-block;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 50px;
+    float: left;
+    background-color: rgba(246,246,246,1.00);
+}
+.intro .gallery .GalTitle {
+    text-align: center;
+    margin-top: 3%;
+    color: rgba(2,11,65,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    text-shadow: 0px 0px;
+}
+.intro .column h3 {
+	color: #472890;
+	text-align: center;
+}
+.intro .column p {
+	color: #010000;
+}
+
+.hero_header 
+{
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #6DC7D0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+footer {
+    background-color: #FAE2C3;
+    padding-bottom: 60PX;
+    padding-top: 60px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.intro .column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+.gallery .column img {
+    width: 35%;
+    height: 35%;
+    -webkit-box-shadow: 8px 6px 16px;
+    box-shadow: 8px 6px 16px;
+    border-radius: 15%;
+    border: thin solid rgba(0,0,0,1.00);
+}
+.gallery #skills ol {
+    text-align: center;
+    color: rgba(72,72,91,1.00);
+    font-family: "Gill Sans Bold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    padding-top: 0px;
+}
+#skills ol li {
+}
+
+
+
+
+
+
+
+/*Monile*/
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding: 0;
+}
+.intro .column p {
+	width: 80%;
+	margin-left: 0px;
+}
+.text_column {
+	padding-left: 20px;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+.container #header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.container #header #namebox {
+    font-size: large;
+    color: rgba(46,60,63,1.00);
+    font-variant: normal;
+    text-shadow: 0px 0px;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.text_column {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 90%;
+}
+.column {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.profile {
+    width: 50%;
+}
+.intro .column p {
+	width: 90%;
+	text-align: center;
+	padding-left: 0px;
+}
+.container #header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-size: 160% 160%;
+    background-position: center;
+    display: inherit;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-color: rgba(250,226,194,1.00);
+}
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 48%;
+}
+.text_column {
+	width: 90%;
+	margin: 0;
+	padding: 20px;
+}
+.intro .column p {
+	width: 80%;
+}
+}
