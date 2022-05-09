@@ -33,12 +33,14 @@
     margin-top: 15px;
     top: 15px;
     background-color: rgba(250,226,194,1.00);
+    overflow: scroll;
 }
 .container section .email {
     text-align: center;
     color: rgba(75,72,72,1.00);
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     background-color: rgba(191,181,168,1.00);
+    float: none;
 }
 .email form input {
     margin: auto;
@@ -391,7 +393,7 @@ textarea {
     background-size: 160% 160%;
     background-position: center;
     opacity: 1;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-color: rgba(250,226,194,1.00);
 }
 .container #header {
@@ -413,5 +415,7 @@ textarea {
 }
 .intro .column p {
 	width: 80%;
+}
+.container #header {
 }
 }
