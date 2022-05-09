@@ -18,6 +18,7 @@
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-color: rgba(250,226,194,1.00);
+    float: left;
 }
 #skills {
     position: relative;
