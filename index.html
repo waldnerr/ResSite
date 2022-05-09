@@ -1,10 +1,13 @@
-<!doctype html>
-<html lang="en">
-<head>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
 	<meta charset="UTF-8">
 	<title>Resume</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="shortcut icon"
+     href="Photos/favicon (1).ico"/>
 </head>
 <body>
 	<!--Main container -->
@@ -21,7 +24,7 @@
 	 <section class="intro">
 	   <div class="gallery">	
 		<div class = "GalTitle">
-		<h1> The Road so far... </h1>	
+		<h1> My Life</h1>	
 		</div> 
 		   
     <div class="column">
@@ -93,7 +96,7 @@
 		   
 	<div id="skills">
 	
-		<h1>My Wicked Skills</h1>
+		<h1>My Skills</h1>
 		<h5>Soft Skills</h5>
 		<ol>
 			<li>Detail Oriented</li>
@@ -143,7 +146,26 @@
 
 		
 </section>
+<section>
+<div class="email">
+<h1>Want to Reach out? Email me!</h1>
+<form action="https://formsubmit.co/16awaldner@gmail.com" method="POST">   
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  <input type="hidden" name="_next" value="thankyou.hmtl" />
+  <input name="email" type="text" class="feedback-input" placeholder="Email" required />
+  <textarea name="text" class="feedback-input" placeholder="Comment" required ></textarea>
+  <input type="submit" value="SUBMIT"/>
+	<p><br></p>
+</form>
+	
+	
+	
+	
+	
+	
+</div>
 		
+</section>
 
 		
 		
@@ -154,9 +176,8 @@
 		
 <footer id="contact">
     <p class="hero_header">Connect with me!</p>
-    <div class="button">Twitter 🐦 </div>
-	<div class="button">GitHub 👨‍💻 </div>
-	<div class="button">Email 📧 </div>
+    <div class="button" href ="#">Twitter 🐦 </div>
+	<div class="button" href ="#">GitHub 👨‍💻 </div>
   </footer>
 	
 	</div> <!--container closer-->
@@ -167,7 +188,7 @@
 		const mainbg = document.getElementById('header');
 		window.addEventListener('scroll',function(){ 
 			mainbg.style.backgroundSize = 160 - +window.pageYOffset/120+'%';
-			mainbg.style.opacity = 1 - + window.pageYOffset/700+'';									   
+		//	mainbg.style.opacity = 1 - + window.pageYOffset/700+'';						   
 })
 			const bg = document.getElementById('skills');
 		window.addEventListener('scroll',function(){ 
