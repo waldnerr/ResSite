@@ -19,6 +19,7 @@
     background-repeat: no-repeat;
     background-color: rgba(250,226,194,1.00);
     float: left;
+    border-bottom: thick solid rgba(129,161,156,1.00);
 }
 #skills {
     position: relative;
@@ -39,7 +40,7 @@
     text-align: center;
     color: rgba(75,72,72,1.00);
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-    background-color: rgba(191,181,168,1.00);
+    background-color: rgba(147,166,156,1.00);
     float: none;
 }
 .email form input {
@@ -74,15 +75,36 @@
 }
 
 #namebox  {
-    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     text-align: left;
     display: block;
-    color: rgba(255,255,255,1.00);
+    color: rgba(60,75,72,1.00);
     font-weight: bolder;
     font-variant: normal;
-    font-size: 200%;
-    text-shadow: 3px 4px 5px rgba(0,0,0,1.00);
+    font-size: 40px;
+    text-shadow: 3px 4px 5px rgba(172,172,172,1.00);
+    font-style: italic;
+    border-bottom-color: rgba(131,158,155,1.00);
     margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    margin-right: 43%;
+}
+.container #header #bio {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: left;
+    display: block;
+    color: rgba(60,75,72,1.00);
+    font-weight: bolder;
+    font-variant: normal;
+    font-size: 20px;
+    text-shadow: 3px 4px 5px rgba(172,172,172,1.00);
+    font-style: italic;
+    border-bottom-color: rgba(131,158,155,1.00);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    margin-right: 43%;
 }
 .intro {
     background-color: #FFFFFF;
@@ -101,7 +123,7 @@
     margin-top: -5px;
     margin-bottom: 50px;
     float: left;
-    background-color: rgba(250,226,194,1.00);
+    background-color: rgba(121,167,171,0.70);
 }
 .intro .gallery .GalTitle {
     text-align: center;
@@ -157,7 +179,7 @@
 }
 
 footer {
-    background-color: #FAE2C3;
+    background-color: #93A69C;
     padding-bottom: 60PX;
     padding-top: 60px;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
@@ -486,7 +508,7 @@ textarea {
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: rgba(250,226,194,1.00);
+    background-color: rgba(227,226,227,1.00);
     float: left;
 }
 }
