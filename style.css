@@ -75,14 +75,14 @@
 
 #namebox  {
     font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-    text-align: center;
+    text-align: left;
     display: block;
-    padding-top: 17%;
     color: rgba(255,255,255,1.00);
     font-weight: bolder;
     font-variant: normal;
     font-size: 200%;
     text-shadow: 3px 4px 5px rgba(0,0,0,1.00);
+    margin-top: 10%;
 }
 .intro {
     background-color: #FFFFFF;
