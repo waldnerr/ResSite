@@ -1,0 +1,514 @@
+@charset "UTF-8";
+@import url("pexels-photo-870711.jpeg");
+@import url("1261951.jpg");
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 0px 0px;
+}
+#header{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(250,226,194,1.00);
+    float: left;
+    border-bottom: thick solid rgba(129,161,156,1.00);
+}
+#skills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("1261951.jpg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    float: left;
+    margin-top: 15px;
+    top: 15px;
+    background-color: rgba(250,226,194,1.00);
+    overflow: scroll;
+}
+.container section .email {
+    text-align: center;
+    color: rgba(75,72,72,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    background-color: rgba(147,166,156,1.00);
+    float: none;
+}
+.email form input {
+    margin: auto;
+    display: block;
+    width: 220px;
+}
+.container section .email {
+}
+.gallery #skills h1 {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    color: rgba(72,72,91,1.00);
+    font-family: "Gill Sans Bold";
+    font-variant: normal;
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+}
+.gallery #skills h5 {
+    text-align: center;
+    color: rgba(72,72,91,1.00);
+    font-family: "Gill Sans Bold";
+    font-variant: normal;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 1%;
+    margin-top: 2%;
+}
+
+#namebox  {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: left;
+    display: block;
+    color: rgba(60,75,72,1.00);
+    font-weight: bolder;
+    font-variant: normal;
+    font-size: 40px;
+    text-shadow: 3px 4px 5px rgba(172,172,172,1.00);
+    font-style: italic;
+    border-bottom-color: rgba(131,158,155,1.00);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    margin-right: 43%;
+}
+.container #header #bio {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: left;
+    display: block;
+    color: rgba(60,75,72,1.00);
+    font-weight: bolder;
+    font-variant: normal;
+    font-size: 20px;
+    text-shadow: 3px 4px 5px rgba(172,172,172,1.00);
+    font-style: italic;
+    border-bottom-color: rgba(131,158,155,1.00);
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    margin-right: 43%;
+}
+.intro {
+    background-color: #FFFFFF;
+}
+.column {
+    width: 50%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 28px;
+    float: left;
+    display: block;
+}
+.container .intro .gallery {
+    display: inline-block;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: 50px;
+    float: left;
+    background-color: rgba(121,167,171,0.70);
+}
+.intro .gallery .GalTitle {
+    text-align: center;
+    margin-top: 3%;
+    color: rgba(2,11,65,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    text-shadow: 0px 0px;
+}
+.intro .column h3 {
+	color: #472890;
+	text-align: center;
+}
+.intro .column p {
+	color: #010000;
+}
+
+.hero_header 
+{
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #6DC7D0;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+footer {
+    background-color: #93A69C;
+    padding-bottom: 60PX;
+    padding-top: 60px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.intro .column p {
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: lighter;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	margin-top: 4%;
+}
+.gallery .column img {
+    width: 35%;
+    height: 35%;
+    -webkit-box-shadow: 8px 6px 16px;
+    box-shadow: 8px 6px 16px;
+    border-radius: 15%;
+    border: thin solid rgba(0,0,0,1.00);
+}
+.gallery #skills ol {
+    text-align: center;
+    color: rgba(72,72,91,1.00);
+    font-family: "Gill Sans Bold";
+    font-style: normal;
+    font-weight: normal;
+    font-size: medium;
+    padding-top: 0px;
+}
+.feedback-input {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border: 2px solid #FAE2C2;
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width: 50%;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+.feedback-input:focus {
+    border: 2px solid #FAE2C2;
+}
+
+textarea {
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+    margin-top: 15px;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 79%;
+    background-color: #3B3B3B;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    font-weight: 700;
+}
+[type="submit"]:hover {
+    background-color: rgba(117,107,94,1.00);
+}
+.Typage {
+    text-align: center;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+    background-color: #D6BFA1;
+    overflow: hidden;
+    margin-bottom: auto;
+}
+.Typage .tycontent {
+    font-family: sans-serif, "American Typewriter", "Academy Engraved LET Plain:1.0", "American Typewriter Bold";
+    font-size: x-large;
+    color: rgba(76,69,69,1.00);
+    text-align: center;
+    margin-top: 15%;
+    height: 100vh;
+    max-height: 100vh;
+}
+.Typage .tycontent .back {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 25%;
+    border-radius: 5px;
+    border: 0;
+    background-color: #3B3B3B;
+    cursor: pointer;
+    color: white;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s;
+    font-weight: 700;
+    margin-top: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+.Typage .tycontent .tytext {
+    margin-top: 5%;
+}
+.Typage .tycontent .back:hover {
+    background-color: rgba(117,107,94,1.00);
+    padding-top: 9px;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+
+
+
+
+
+
+/*Monile*/
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: justify;
+	padding: 0;
+}
+.intro .column p {
+	width: 80%;
+	margin-left: 0px;
+}
+.text_column {
+	padding-left: 20px;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.hero_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+.container #header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.container #header #namebox {
+    font-size: large;
+    color: rgba(46,60,63,1.00);
+    font-variant: normal;
+    text-shadow: 0px 0px;
+}
+.intro .gallery #skills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("1261951.jpg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    float: left;
+    margin-top: 15px;
+    top: 15px;
+    background-color: rgba(250,226,194,1.00);
+    overflow: scroll;
+}
+.container #header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(250,226,194,1.00);
+    float: left;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding: 0;
+}
+.thumbnail {
+	width: 100%;
+}
+.column {
+	width: 100%;
+	margin-top: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.text_column {
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 90%;
+}
+.column {
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.profile {
+    width: 50%;
+}
+.intro .column p {
+	width: 90%;
+	text-align: center;
+	padding-left: 0px;
+}
+.container #header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-size: 160% 160%;
+    background-position: center;
+    opacity: 1;
+    background-repeat: repeat;
+    background-color: rgba(250,226,194,1.00);
+}
+.container #header {
+}
+.intro .gallery #skills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("1261951.jpg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    float: left;
+    margin-top: 15px;
+    top: 15px;
+    background-color: rgba(250,226,194,1.00);
+    overflow: scroll;
+}
+.container #header {
+}
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 1096px) {
+.text_column {
+	width: 100%;
+}
+.thumbnail {
+	width: 48%;
+}
+.text_column {
+	width: 90%;
+	margin: 0;
+	padding: 20px;
+}
+.intro .column p {
+	width: 80%;
+}
+.container #header {
+}
+.intro .gallery #skills {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("1261951.jpg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    float: left;
+    margin-top: 15px;
+    top: 15px;
+    background-color: rgba(250,226,194,1.00);
+    overflow: scroll;
+}
+.container #header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("pexels-photo-870711.jpeg");
+    background-size: 160%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgba(227,226,227,1.00);
+    float: left;
+}
+}
